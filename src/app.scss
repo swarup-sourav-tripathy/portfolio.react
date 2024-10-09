@@ -1,8 +1,4 @@
 
-html {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
 
 * {
   padding: 0;
@@ -23,7 +19,7 @@ a {
 
 section {
   height: 100vh;
-  scroll-snap-align: center;
+  
 }
 
 #footer {
@@ -33,6 +29,9 @@ section {
 @mixin mobile {
   @media (max-width: 738px) {
     @content;
+   section{
+    width: 800px;
+   }
   }
 }
 

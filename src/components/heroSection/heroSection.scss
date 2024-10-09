@@ -91,6 +91,10 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+
+            @include mobile{
+                border: none;
+            }
         }
     }
 
@@ -100,10 +104,18 @@
         bottom: 0; 
         left: 0; 
         white-space: nowrap;
-        color: rgba(255, 255, 255, 0.1); 
+        color: #ffffff1a; 
         z-index: 1; 
         width: 50%;
         font-weight: bold;
+
+        @include mobile{
+            position: absolute;
+            border: none;
+            width: 100%; // Ensure it takes the full width on mobile
+            font-size: 20vh; // Adjust size for mobile if needed
+            left: 0; 
+        };
     }
     
 }

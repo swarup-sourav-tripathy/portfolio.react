@@ -15,10 +15,11 @@
 
     @include mobile {
       width: 100%;
+      display: flex;
       justify-content: space-around;
       align-items: center;
       text-align: center;
-      margin-left: 40px;
+      margin-left: 40%;
     }
 
     span {
@@ -35,7 +36,9 @@
 
       @include mobile {
         font-size: 15px;
-        margin-left: 5px;
+        margin-left: 20%;
+        position: absolute;
+        left: 20px;
       }
     }
 

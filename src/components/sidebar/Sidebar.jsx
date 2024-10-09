@@ -3,7 +3,7 @@ import Links from "./links/Links";
 import "./sidebar.scss"
 import ToggleButton from "./toggleButton/ToggleButton";
 import {motion} from "framer-motion"
-import { clipPath } from "framer-motion/client";
+
 
 
 const variants = {

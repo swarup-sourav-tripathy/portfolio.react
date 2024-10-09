@@ -1,0 +1,47 @@
+@import "../../app.scss";
+
+
+.footer {
+  height: 200px;
+  color: gray;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .line {
+      height: 2px;
+      width: 90%;
+      background-color: white;
+     margin: auto;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      margin-top: 90px;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 60rem;
+    gap: 20px;
+
+    @include mobile {
+      display: flex;
+      margin-right: 10px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 30px;
+      gap: 10px;
+    }
+  }
+}

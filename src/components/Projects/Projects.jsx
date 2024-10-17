@@ -8,6 +8,7 @@ const items = [
         id: 1,
         title: "Blog App",
         img: "/Screenshot 2024-10-08 185659.png",
+        link:"https://react-appwrite-blog-theta.vercel.app/",
         elements: "React.js | appwrite | Shadcn | Tailwind CSS",
         desc: "It allows user to share new thoughts,new places and anything new to explore with others"
     },
@@ -15,6 +16,7 @@ const items = [
         id: 2,
         title: "Confession App",
         img: "/Screenshot 2024-10-08 191231.png",
+        link:"https://next-confession.vercel.app/",
         elements: "Next.js | MongoDB | Shadcn | Next OAuth",
         desc: "It allows users to pure anonymously share their thoughts and opinions with others, fostering open communication and honest feedback."
     },
@@ -38,7 +40,7 @@ const Single = ({item}) => {
                     <h2>{item.title}</h2>
                     <p>{item.elements}</p>
                     <p>{item.desc}</p>
-                    <button>See Demo</button>
+                    <button><a href={item.link}>See Demo</a></button>
                 </div>
                </div>
             </div>

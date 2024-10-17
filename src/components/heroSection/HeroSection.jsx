@@ -1,5 +1,6 @@
 import "./heroSection.scss"
 import {motion} from "framer-motion"
+import { Link } from "react-router-dom"
 
 const textVariants = {
     initial:{
@@ -46,7 +47,9 @@ const HeroSection = () => {
                     <motion.h2 variants={textVariants} >Swarup Sourav Tripathy</motion.h2>
                     <motion.h1 variants={textVariants} >Web Devloper</motion.h1>
                     <motion.div className="button" variants={textVariants} >
-                        <motion.button variants={textVariants} >Github</motion.button>
+                        <motion.button variants={textVariants} >
+                         <a href="https://github.com/swarup-sourav-tripathy">Github</a>
+                        </motion.button>
                     </motion.div>
                     <motion.div variants={textVariants} >
                         <motion.img  variants={textVariants} animate="scrollButton" src="/54414-200.png" alt="" />

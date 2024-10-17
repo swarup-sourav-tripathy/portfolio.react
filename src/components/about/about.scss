@@ -7,29 +7,44 @@
   width: 100%;
   padding: 100px;
 
-  @include mobile{
+  @include mobile {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
     align-content: start;
     padding: 30px;
-    
   }
 
-  .imageContainer {
-    height: 250px;
-    width: 600px;
+  img {
+    width: 300px;
+    height: 300px;
     margin: 50px;
     margin-top: 0;
     margin-right: 0;
     background-color: transparent;
     border-radius: 500px;
 
+    @include mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 60px;
+      margin-top: 30px;
+      margin-bottom: auto;
+      height: 180px;
+      width: 180px;
+      background-color: transparent;
+    }
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     @include mobile{
-     height: 180px;
-     width: 180px;
-     background-color: transparent;
-     }
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   .content {
@@ -39,31 +54,30 @@
     text-align: start;
     margin: 30px;
 
-    @include mobile{
-     margin: 15px;
-      
+    @include mobile {
+      margin: 15px;
     }
   }
 
   hr {
-    width: 23%;
+    width: 17%;
     height: 3px;
     background-color: white;
 
-    @include mobile{
-      width: 36%;
+    @include mobile {
+      width: 42%;
       height: 2px;
-     }
+    }
   }
   p {
     margin-top: 10px;
     text-align: start;
     color: gray;
 
-    @include mobile{
-     margin-top: 5px;
-     width: 300px;
-     }
+    @include mobile {
+      margin-top: 5px;
+      width: 300px;
+    }
 
     span {
       color: orange;
@@ -80,9 +94,9 @@
       color: orange;
     }
 
-    @include mobile{
+    @include mobile {
       font-size: 30px;
-      }
+    }
   }
 
   h3 {
@@ -90,9 +104,9 @@
     display: flex;
     flex-direction: row;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
-      }
+    }
 
     article {
       margin-left: 7px;
@@ -113,14 +127,14 @@
     border-radius: 30px;
     cursor: pointer;
 
-    @include mobile{
+    @include mobile {
       margin-top: 10px;
       padding: 5px;
       height: 50px;
       width: 80px;
       font-size: 10px;
       border-radius: 20px;
-      }
+    }
   }
 
   button:hover {

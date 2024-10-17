@@ -60,7 +60,7 @@ const HeroSection = () => {
                 Full Stack MERN Devloper
             </motion.div>
             <div className="imageContainer">
-                <img src="  " alt="" />
+                <img src="/IMG-20241016-WA0015-removebg.png"  alt="" />
             </div>
         </div>
     )

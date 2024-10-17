@@ -36,9 +36,7 @@ const About = () => {
                             <button>Download CV</button>
                         </a>
                     </div>
-                    <div className="imageContainer">
-                        <img src="/IMG-20241016-WA0020-removebg-preview.png" alt="" />
-                    </div>
+                   
                 </div>
             </div>
 

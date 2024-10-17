@@ -1,12 +1,17 @@
 @import "../../app.scss";
 
+body{
+  margin-bottom: auto;
+
+}
+
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
   padding: 100px;
-
+ 
   @include mobile {
     display: flex;
     flex-direction: column-reverse;

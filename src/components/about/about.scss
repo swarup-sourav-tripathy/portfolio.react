@@ -1,6 +1,5 @@
 @import "../../app.scss";
 
-
 .about {
   display: flex;
   flex-direction: row;
@@ -8,7 +7,7 @@
   width: 100%;
   padding: 100px;
   margin-top: 10rem;
- 
+
   @include mobile {
     display: flex;
     flex-direction: column-reverse;
@@ -39,11 +38,24 @@
     }
   }
 
-  .container{
+  .heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-bottom: 5rem;
+    @include mobile {
+      margin-left: 22%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @include mobile{
+    @include mobile {
       display: flex;
       flex-direction: column-reverse;
     }
@@ -54,20 +66,21 @@
     flex-direction: column;
     justify-content: center;
     text-align: start;
-    margin: 30px;
+    margin-top: -25px;
 
     @include mobile {
       margin: 0;
+      text-align: center;
     }
   }
 
   hr {
-    width: 17%;
+    width: 29%;
     height: 3px;
     background-color: white;
 
     @include mobile {
-      width: 42%;
+      width: 75%;
       height: 2px;
     }
   }
@@ -77,6 +90,7 @@
     color: gray;
 
     @include mobile {
+      text-align: center;
       margin-top: 5px;
       width: 300px;
     }
@@ -95,7 +109,7 @@
     color: orange;
 
     @include mobile {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 

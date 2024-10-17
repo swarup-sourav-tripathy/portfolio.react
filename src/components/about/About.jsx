@@ -7,9 +7,11 @@ const About = () => {
 
         <div className="about">
             <div className="contentContainer">
+                <div className="heading">
                 <h1>About  <article>  me</article></h1>
                
-                <hr />
+               <hr />
+                </div>
                 <br />
                 <div className="container">
                     <div className="content">

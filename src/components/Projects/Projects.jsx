@@ -20,6 +20,14 @@ const items = [
         elements: "Next.js | MongoDB | Shadcn | Next OAuth",
         desc: "It allows users to pure anonymously share their thoughts and opinions with others, fostering open communication and honest feedback."
     },
+    {
+        id: 3,
+        title: "Video App",
+        img: "/Screenshot 2024-12-04 225547.png",
+        link:"https://saas-video-app.vercel.app/",
+        elements: "Next.js | Postgresql | Prisma | Cloudinary | Clerk",
+        desc: "It is a SAAS website, where user can customize his/her photos as per required platfoem and also can compressed his/her video.All this possible by using featues of cloudinary"
+    },
 ]
 
 const Single = ({item}) => {

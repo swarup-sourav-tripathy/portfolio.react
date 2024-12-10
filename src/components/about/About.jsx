@@ -36,7 +36,7 @@ const About = () => {
                             well-architected solutions that provide optimal user experiences. I’m driven by solving complex problems and
                             continuously expanding my skill set to keep up with the fast-paced world of web development.
                         </p>
-                        <a href="" download="">
+                        <a href="/SwarupSourav_Tripathy_Resume.pdf" download="SwarupSourav_Tripathy_Resume">
                             <button>Download CV</button>
                         </a>
                     </div>

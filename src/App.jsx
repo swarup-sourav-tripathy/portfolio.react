@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <section id='Homepage'>
+      <section id='Homepage'> 
         <Navbar />
         <HeroSection />
       </section>
